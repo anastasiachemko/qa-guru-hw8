@@ -28,7 +28,7 @@ public class ParameterizedSearchTests {
             "Харари, научно-популярная литература"
     }
     )
-
+    //Тестирование выдачи жанров
     @ParameterizedTest(name = "Тестирование выдачи жанров в поиске с тестовыми данными: {0}")
     void genreTest(String testData, String expectedResult) {
         open("https://www.litres.ru/");
